@@ -1,5 +1,5 @@
 import {ShopItem} from './clases.js';
-
+/*---
 let shopItemsArray = []; // productos disponible para comprar
 let shoppingcart = []; // Carro de compras
 let total = 0; // Valor total de la factura
@@ -100,7 +100,7 @@ fetch('https://api.escuelajs.co/api/v1/products')
             `
         })
 
-        /*---------------Imprimir total en pantalla------------- */
+        ------------Imprimir total en pantalla------------- */
         let totalContainer = document.querySelector('.cart-total-price');
         
         totalContainer.innerText = `$${total}`;
